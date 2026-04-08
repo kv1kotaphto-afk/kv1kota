@@ -5,7 +5,7 @@ import torch.nn as nn
 from torchvision import transforms
 from PIL import Image, ImageOps
 import io
-
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="MNIST CNN API")
 
